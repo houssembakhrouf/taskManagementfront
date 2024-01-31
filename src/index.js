@@ -9,7 +9,7 @@ import {BrowserRouter} from  'react-router-dom'
 import axios from 'axios';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-axios.defaults.baseURL="http://127.0.0.1:8081/api/v1"
+axios.defaults.baseURL="https://taskmanagementserver-m51n.onrender.com/api/v1"
 root.render(
   <Provider store={store}>
   <BrowserRouter>
